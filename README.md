@@ -16,15 +16,18 @@ This project involves developing a Next.js-based web application for farmers to 
 ```
 /project-root
 ├── components  # Reusable UI components
-│   ├── Navbar.js
-│   ├── Sidebar.js
-│   ├── SensorCard.js
-│   ├── Chart.js
-├── pages
-│   ├── index.js  # Dashboard
-│   ├── login.js  # Authentication Page
-│   ├── reports.js  # Historical Data & Trends
-│   ├── settings.js  # User Preferences
+│   ├── Navbar.tsx
+│   ├── Sidebar.tsx
+│   ├── SensorCard.tsx
+│   ├── Chart.tsx
+├── app
+│   ├── page.tsx  # Dashboard
+│   ├── auth  # Authentication Page
+│          ├── page.tsx  # Authentication Page
+│   ├── report  # Authentication Page
+│          ├── page.tsx  # Historical Data & Trends
+│   ├── settings  # User Preferences
+│          ├── page.tsx  # User Preferences
 ├── public  # Static assets
 ├── styles  # Global styles if needed
 ├── utils  # Helper functions & API handlers
